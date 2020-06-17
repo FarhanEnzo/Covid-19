@@ -6,11 +6,16 @@ public class CovidQa {
     private String temperature;
     private String[] symptoms;
     private String[] preDisease;
+    private String habit;
     private String name;
     private String area;
+    private String pregnant;
+
+
 
     public CovidQa(String name, String ageGroup, String area,
-                   String temperature, String[] symptoms,String gender,String[] preDisease) {
+                   String temperature, String[] symptoms,
+                   String gender,String[] preDisease, String habit, String pregnant) {
         this.name = name;
         this.ageGroup = ageGroup;
         this.area = area;
@@ -18,6 +23,8 @@ public class CovidQa {
         this.symptoms = symptoms;
         this.gender = gender;
         this.preDisease = preDisease;
+        this.habit = habit;
+        this.pregnant = pregnant;
     }
 
     public String getName() {
@@ -74,5 +81,20 @@ public class CovidQa {
 
     public void setPreDisease(String[] preDisease) {
         this.preDisease = preDisease;
+    }
+
+    public String getHabit() {
+        return habit;
+    }
+    public void setHabit(String habit) {
+        this.habit = habit;
+    }
+
+    public String getPregnant() {
+        return pregnant;
+    }
+
+    public void setPregnant(String pregnant) {
+        this.pregnant = pregnant;
     }
 }

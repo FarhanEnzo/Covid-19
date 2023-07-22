@@ -1,8 +1,3 @@
-/**
- * + * @author erfan
- * + * @since 6/12/20
- * +
- */
 public class CovidTestHelper {
 
     public int getResult(CovidQa covidQa) {

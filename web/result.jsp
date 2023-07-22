@@ -1,7 +1,3 @@
-<%--
-  User: Farhan
-  Date: 6/12/20
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
